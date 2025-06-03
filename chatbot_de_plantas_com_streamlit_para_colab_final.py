@@ -17,8 +17,6 @@ model = "gemini-2.0-flash"
 # %%writefile app.py
 
 
-from pyngrok import ngrok
-
 import subprocess
 import time
 
