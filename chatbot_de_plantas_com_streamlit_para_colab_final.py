@@ -22,7 +22,6 @@ model = "gemini-2.0-flash"
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 
-!pip install pyngrok
 
 from pyngrok import ngrok
 
@@ -33,6 +32,4 @@ import time
 process = subprocess.Popen(["streamlit", "run", "app.py", "--server.port", "8501", "--server.headless", "true"],
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-!npx localtunnel --port 8501
 
-!wget -q -O - https://loca.lt/mytunnelpassword
