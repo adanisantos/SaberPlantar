@@ -9,7 +9,7 @@ Chatbot feito em Python alimentado pelo Google Gemini
 ## Como funciona?
 
 #### 1. Chatbot para Iniciantes na Jardinagem </br>
-#### 2. Acesse esse link:  </br>
-#### 3. Digite Somente o nome da planta/flor </br>
+### 2. Acesse esse link: [Saber Plantar Chatbot](https://saberplantar.streamlit.app/)  </br>
+### 3. **Digite Somente o nome da planta ou flor** </br>
 #### 4. O bot irá lhe responder com informações sobre luminosidadede, umidade e trazendo a indicação de 3 tipos de vasos para você começar seu espaço verde. </br>
 ![saber plantar tela](https://github.com/user-attachments/assets/087dba08-3d05-4153-ad99-6999d9e76a21)
