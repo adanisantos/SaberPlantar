@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1lqiRVPvaJS1MdcD3Esi_XQbd3fuuxnR_
 """
 
-!pip install streamlit -q
-
-!pip install google-genai
-
 import os
 from google.colab import userdata
 os.environ["GOOGLE_API_KEY"] = userdata.get('GOOGLE_API_KEY')
