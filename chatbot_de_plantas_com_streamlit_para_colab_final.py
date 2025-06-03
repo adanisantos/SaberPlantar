@@ -9,8 +9,6 @@ Original file is located at
 
 import os
 
-client = genai.Client()
-
 import google.generativeai as genai
 
 model = "gemini-2.0-flash"
