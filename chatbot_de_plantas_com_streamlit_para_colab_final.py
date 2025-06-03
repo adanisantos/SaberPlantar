@@ -8,8 +8,6 @@ Original file is located at
 """
 
 import os
-from google.colab import userdata
-os.environ["GOOGLE_API_KEY"] = userdata.get('GOOGLE_API_KEY')
 
 from google import genai
 
