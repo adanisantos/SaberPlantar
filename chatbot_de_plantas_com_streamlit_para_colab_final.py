@@ -9,8 +9,6 @@ Original file is located at
 
 import os
 
-from google import genai
-
 client = genai.Client()
 
 import google.generativeai as genai
